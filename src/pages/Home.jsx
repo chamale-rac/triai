@@ -41,9 +41,9 @@ const Home = () => {
 						>
 							<p className="max-w-md font-normal text-gray-600 text-base">
 								Crea tu propio diseño de camiseta con el logo de
-								tu equipo favorito con esta 3d app.{' '}
+								tu equipo favorito con esta app.{' '}
 								<strong>Deja volar tu imaginación</strong> y
-								crea tu propio estilo.
+								crea tu estilo.
 							</p>
 							<CustomButton
 								type="filled"
