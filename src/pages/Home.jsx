@@ -40,10 +40,10 @@ const Home = () => {
 							className="flex flex-col gap-5"
 						>
 							<p className="max-w-md font-normal text-gray-600 text-base">
-								Crea tu propio diseño de camiseta con el logo de
-								tu equipo favorito con esta app.{' '}
-								<strong>Deja volar tu imaginación</strong> y
-								crea tu estilo.
+								¡Crea tu camiseta única con el logo de tu equipo
+								favorito, tu imagen preferida o incluso con la
+								ayuda de una IA!{' '}
+								<strong>¡Deja volar tu imaginación!</strong>
 							</p>
 							<CustomButton
 								type="filled"
