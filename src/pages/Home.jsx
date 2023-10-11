@@ -16,40 +16,42 @@ const Home = () => {
 	return (
 		<AnimatePresence>
 			{snap.intro && (
-				<motion.section className="home" {...slideAnimation('left')}>
+				<motion.section
+					className='home'
+					{...slideAnimation('left')}
+				>
 					<motion.header {...slideAnimation('down')}>
 						<img
-							src="./uvg.png"
-							alt="logo"
-							className="w-8 h-8 object-contain"
+							src='./uvg.png'
+							alt='logo'
+							className='w-8 h-8 object-contain'
 						/>
 					</motion.header>
 					<motion.div
-						className="home-content"
+						className='home-content'
 						{...headContainerAnimation}
 					>
 						<motion.div {...headTextAnimation}>
-							<h1 className="head-text">
+							<h1 className='head-text'>
 								HAGA
-								<br className="xl:hidden block" />
+								<br className='xl:hidden block' />
 								MOSLO
 							</h1>
 						</motion.div>
 						<motion.div
 							{...headContentAnimation}
-							className="flex flex-col gap-5"
+							className='flex flex-col gap-5'
 						>
-							<p className="max-w-md font-normal text-gray-600 text-base">
-								¡Crea tu camiseta única con el logo de tu equipo
-								favorito, tu imagen preferida o incluso con la
-								ayuda de una IA!{' '}
+							<p className='max-w-md font-normal text-gray-600 text-base'>
+								¡Crea tu Yeti único con el logo de tu equipo favorito, tu imagen
+								preferida o incluso con la ayuda de una IA!{' '}
 								<strong>¡Deja volar tu imaginación!</strong>
 							</p>
 							<CustomButton
-								type="filled"
-								title="¡Personalizar!"
+								type='filled'
+								title='¡Personalizar!'
 								handleClick={() => (state.intro = false)}
-								customStyles="w-fit px-4 py-2.5 font-bold text-sm"
+								customStyles='w-fit px-4 py-2.5 font-bold text-sm'
 							/>
 						</motion.div>
 					</motion.div>
